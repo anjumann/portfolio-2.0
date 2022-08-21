@@ -25,8 +25,3 @@ const nextConfig = {
 };
 
 module.exports = withAnalyzer(nextConfig);
-
-module.exports = {
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH,
-  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH
-}
