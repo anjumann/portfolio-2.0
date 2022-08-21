@@ -14,8 +14,8 @@ const MainProjects: FC<MainProjectsProps> = () => {
       title: "Portfolio",
       image: "/projects/portfolio.png",
       desc: "",
-      website: "anjuman.me",
-      github: "github.com/ayusmann/",
+      website: "https://anjuman.vercel.app/",
+      github: "https://github.com/ayusmann/portfolio-2.0",
       tech: ["/skills/next.png", "/skills/ts.png", "/skills/tailwind.png","/skills/framer.png"],
     },
     {
