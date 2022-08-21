@@ -59,15 +59,16 @@ const Skills: FC<SkillsProps> = () => {
       link: "https://getbootstrap.com/",
     },
     {
-      title: "GraphQL",
-      image: "/skills/graphql.png",
-      link: "https://graphql.org/",
-    },
-    {
       title: "Laravel",
       image: "/skills/laravel.png",
       link: "https://laravel.com/",
     },
+    {
+      title: "GraphQL",
+      image: "/skills/graphql.png",
+      link: "https://graphql.org/",
+    },
+    
   ]
 
   return (
