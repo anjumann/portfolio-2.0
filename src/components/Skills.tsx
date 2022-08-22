@@ -59,9 +59,9 @@ const Skills: FC<SkillsProps> = () => {
       link: "https://getbootstrap.com/",
     },
     {
-      title: "Laravel",
-      image: "/skills/laravel.png",
-      link: "https://laravel.com/",
+      title: "TypeScript",
+      image: "/skills/ts.png",
+      link: "https://www.typescriptlang.org/",
     },
     {
       title: "GraphQL",
