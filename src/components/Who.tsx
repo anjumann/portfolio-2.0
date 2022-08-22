@@ -22,7 +22,7 @@ const Who: FC = () => {
         <p data-scroll className="text-lg md:text-xl text-gray-200 text-justify " id="story">
           My name is Anjuman Raj. I&apos;m a
           {false ? ` ${new Date().getFullYear() - 2020} years old` : ""}{" "}
-          3rd year undergrad exploring and learning new Technologies everyday.I have been developing some of web app for my College and freelance clients. I have expertise in the use of ReactJs and NextJs with a robust understanding of technologies. Used some of UI libraries like Material UI, Chakra UI, Bootstrap I also have a great command of technical languages like Java, C++, Python, JavaScript, I also like{" "}, listening to music and reading Books
+          3rd year undergrad exploring and learning new Technologies everyday.I have been developing some of web app for my College and freelance clients. I have expertise in the use of ReactJs and NextJs with a robust understanding of technologies. I have used some of UI libraries like Material UI, Chakra UI, Bootstrap I also have a great command of technical languages like Java, C++, Python, JavaScript, I also like{" "}, listening to music and reading Books
         </p>
       </div>
     </div>

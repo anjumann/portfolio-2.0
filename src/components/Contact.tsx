@@ -27,6 +27,7 @@ const Contact: FC = () => {
                 placeholder="Name"
                 required
                 minLength={3}
+                
               />
               <label htmlFor="email">Your email</label>
               <input
