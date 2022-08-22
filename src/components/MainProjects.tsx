@@ -19,6 +19,14 @@ const MainProjects: FC<MainProjectsProps> = () => {
       tech: ["/skills/next.png", "/skills/ts.png", "/skills/tailwind.png","/skills/framer.png"],
     },
     {
+      title: "Incridea'22 official website",
+      image: "/projects/incridea.png",
+      desc: "lorem ipsum dolor sit amet",
+      website: "https://incridea.in/",
+      github: "https://github.com/BharathMKulkarni/Incridea22",
+      tech: ["/skills/react.png", "/skills/tailwind.png", "/skills/firebase.png", "/skills/node.png","/skills/razorpay.png"],
+    },
+    {
       title: "Finite Loop official website",
       image: "/projects/finiteloop.png",
       desc: "lorem ipsum dolor sit amet",
@@ -27,13 +35,14 @@ const MainProjects: FC<MainProjectsProps> = () => {
       tech: ["/skills/react.png", "/skills/firebase.png", "/skills/tailwind.png"],
     },
     {
-      title: "Incridea'22 official website",
-      image: "/projects/incridea.png",
+      title: "Maa Tara Computers official website",
+      image: "/projects/mtc.png",
       desc: "lorem ipsum dolor sit amet",
-      website: "incridea.in",
-      github: "https://github.com/BharathMKulkarni/Incridea22",
+      website: "https://maataracomputers.co.in/",
+      github: "https://github.com/ayusmann/mtc",
       tech: ["/skills/react.png", "/skills/tailwind.png", "/skills/firebase.png", "/skills/node.png","/skills/razorpay.png"],
     },
+
   ]
 
   return (

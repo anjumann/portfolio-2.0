@@ -1,5 +1,5 @@
 import type { GetStaticProps, NextPage } from "next";
-
+import { useState, useEffect } from "react";
 import Contact from "../components/Contact";
 import Cursor from "../components/Cursor";
 import { GET_ALL_DATA } from "../graphql/queries";
@@ -12,6 +12,7 @@ import Who from "../components/Who";
 import { allDataType } from "../shared/types";
 import { client } from "../graphql/client";
 import { useRef } from "react";
+import Loader from "../components/Loader";
 
 interface HomeProps {
   data: allDataType;
@@ -20,29 +21,36 @@ interface HomeProps {
 const Home: NextPage<HomeProps> = ({ data }) => {
   const containerRef = useRef(null);
 
+  const [Loading, setLoading] = useState(false);
+  useEffect(() => {
+    setTimeout(() => setLoading(true), 4000);
+  },);
   return (
-    <LocomotiveScrollProvider
-      options={{
-        smooth: true,
-        tablet: {
+    <>
+      {!Loading && <Loader />}
+      <LocomotiveScrollProvider
+        options={{
           smooth: true,
-          breakpoint: 768,
-        },
-      }}
-      watch={[]}
-      containerRef={containerRef}
-    >
-      <Cursor />
+          tablet: {
+            smooth: true,
+            breakpoint: 768,
+          },
+        }}
+        watch={[]}
+        containerRef={containerRef}
+      >
+        <Cursor />
 
-      <div data-scroll-container ref={containerRef}>
-        <Intro />
-        <Who />
-        <Skills skills={data.skills} />
-        <MainProjects projects={data.projects} />
-        <SmallProjects projects={data.smallProjects} />
-        <Contact />
-      </div>
-    </LocomotiveScrollProvider>
+        <div data-scroll-container ref={containerRef}>
+          <Intro />
+          <Who />
+          <Skills skills={data.skills} />
+          <MainProjects projects={data.projects} />
+          <SmallProjects projects={data.smallProjects} />
+          <Contact />
+        </div>
+      </LocomotiveScrollProvider>
+    </>
   );
 };
 

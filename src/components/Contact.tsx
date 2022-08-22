@@ -50,7 +50,7 @@ const Contact: FC = () => {
             </form>
           </div>
           <div className="flex-1">
-            <h1 className="text-xl mb-3">Other places</h1>
+            <h1 className="text-xl mb-3">Social Media Handles</h1>
             {socialLinks.map((item) => (
               <a
                 key={item.title}
