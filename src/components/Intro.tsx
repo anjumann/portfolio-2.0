@@ -23,7 +23,7 @@ const Intro: FC = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.4, delay: 1.4 }}
-        className="text-base md:text-xl w-10/12 md:w-8/12  z-[1] overflow-hidden text-justify"
+        className="text-lg md:text-xl w-10/12 md:w-8/12  z-[1] overflow-hidden text-justify md:text-center"
       >
         {`Beyond Ethereum and Hyperledger. Blockchain expert, Web Developer with a passion for ideation, design, and creation of innovative products. I love to create, to learn new stuff and to share it.`}
       </m.p>
