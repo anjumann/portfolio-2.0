@@ -35,7 +35,7 @@ const Intro: FC = () => {
       <m.a href="https://www.linkedin.com/in/anjuman-raj-ba390b1b5/"  target="_blank" className="text-[#0077B5] hover:text-dark border border-[#0077B5] hover:bg-[#0077B5] cursor-pointer font-medium rounded-lg text-lg  px-5 py-2 text-center mr-2 mb-2  z-10 transition-all duration-150 ease-linear hover:scale-105  ">LinkedIn</m.a>
 
 
-      <m.a href="Github.com/ayusmann" target="_blank"  className="text-[#ffffff] hover:text-dark border border-[#fff] hover:bg-white hover:border-none cursor-pointer font-medium rounded-lg text-lg px-5 py-2 text-center mr-2 mb-2  z-10 transition-all duration-150 ease-linear hover:scale-105 ">Github</m.a>
+      <m.a href="https://github.com/ayusmann" target="_blank"  className="text-[#ffffff] hover:text-dark border border-[#fff] hover:bg-white hover:border-none cursor-pointer font-medium rounded-lg text-lg px-5 py-2 text-center mr-2 mb-2  z-10 transition-all duration-150 ease-linear hover:scale-105 ">Github</m.a>
       </div>
 
 
