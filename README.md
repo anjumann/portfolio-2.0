@@ -5,8 +5,8 @@ My personal portfolio
 
 ## Live demo
 
-Official Website: [[https://anjuman.vercel.app/](https://www.anjuman.tech/)]
-Official Website: [https://anjuman.vercel.app/](https://anjuman.vercel.app/)
+- Official Website: [https://www.anjuman.tech/](https://www.anjuman.tech/)]
+- Official Website: [https://anjuman.vercel.app/](https://anjuman.vercel.app/)
 
 ## Main technology used
 
