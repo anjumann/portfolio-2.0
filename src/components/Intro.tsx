@@ -15,7 +15,7 @@ const Intro: FC = () => {
         data-scroll-speed="1"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.4, delay: 1.4 }} className=" text-5xl md:text-7xl font-mono text-center  "> {`Hi!👋🏻, I'm Anjuman Raj`} 
+        transition={{ duration: 0.4, delay: 1.4 }} className=" text-5xl md:text-7xl font-mono text-center  backdrop-blur-sm p-3 "> {`Hi!👋🏻, I'm Anjuman Raj`} 
       </m.p>
       <m.p
         data-scroll
