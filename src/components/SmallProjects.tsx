@@ -12,7 +12,7 @@ const SmallProjects: FC<SmallProjectsProps> = () => {
         <h1 className="text-4xl text-center">More of my works</h1>
         <p className="mt-4 mb-10 text-gray-400 text-xl text-center">
 
-          checkout <a className=" underline underline-offset-4 text-gray-100 transition-all duration-200 ease-in  hover:no-underline hover:text-2xl "  href="https://github.com/ayusmann">Github</a> to see more of my projects
+          checkout <a className=" underline underline-offset-4 text-gray-100 transition-all duration-200 ease-in  hover:no-underline hover:text-2xl "  href="https://github.com/anjumann">Github</a> to see more of my projects
         </p>
 
         {/* <div

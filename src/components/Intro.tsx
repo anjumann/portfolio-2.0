@@ -15,7 +15,7 @@ const Intro: FC = () => {
         data-scroll-speed="1"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.4, delay: 1.4 }} className=" text-5xl md:text-7xl font-mono text-center  "> {`Hi!👋🏻, I'm Anjuman Raj`} 
+        transition={{ duration: 0.4, delay: 1.4 }} className=" text-5xl md:text-7xl font-mono text-center  backdrop-blur-sm p-3 "> {`Hi!👋🏻, I'm Anjuman Raj`} 
       </m.p>
       <m.p
         data-scroll
@@ -35,7 +35,7 @@ const Intro: FC = () => {
       <m.a href="https://www.linkedin.com/in/anjuman-raj-ba390b1b5/"  target="_blank" className="text-[#0077B5] hover:text-dark border border-[#0077B5] hover:bg-[#0077B5] cursor-pointer font-medium rounded-lg text-lg  px-5 py-2 text-center mr-2 mb-2  z-10 transition-all duration-150 ease-linear hover:scale-105  ">LinkedIn</m.a>
 
 
-      <m.a href="https://github.com/ayusmann" target="_blank"  className="text-[#ffffff] hover:text-dark border border-[#fff] hover:bg-white hover:border-none cursor-pointer font-medium rounded-lg text-lg px-5 py-2 text-center mr-2 mb-2  z-10 transition-all duration-150 ease-linear hover:scale-105 ">Github</m.a>
+      <m.a href="https://github.com/anjumann" target="_blank"  className="text-[#ffffff] hover:text-dark border border-[#fff] hover:bg-white hover:border-none cursor-pointer font-medium rounded-lg text-lg px-5 py-2 text-center mr-2 mb-2  z-10 transition-all duration-150 ease-linear hover:scale-105 ">Github</m.a>
       </div>
 
 

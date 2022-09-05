@@ -15,7 +15,7 @@ const MainProjects: FC<MainProjectsProps> = () => {
       image: "/projects/portfolio.png",
       desc: "",
       website: "https://anjuman.vercel.app/",
-      github: "https://github.com/ayusmann/portfolio-2.0",
+      github: "https://github.com/anjumann/portfolio-2.0",
       tech: ["/skills/next.png", "/skills/ts.png", "/skills/tailwind.png","/skills/framer.png"],
     },
     {
@@ -39,7 +39,7 @@ const MainProjects: FC<MainProjectsProps> = () => {
       image: "/projects/mtc.png",
       desc: "lorem ipsum dolor sit amet",
       website: "https://maataracomputers.co.in/",
-      github: "https://github.com/ayusmann/mtc",
+      github: "https://github.com/anjumann/mtc",
       tech: ["/skills/react.png", "/skills/tailwind.png", "/skills/firebase.png", "/skills/node.png","/skills/razorpay.png"],
     },
 

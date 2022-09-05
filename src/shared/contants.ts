@@ -31,7 +31,7 @@ export const socialLinks = [
   {
     title: "Github",
     icon: "/github.png",
-    link: "https://github.com/ayusmann",
+    link: "https://github.com/anjumann",
   },
   {
     title: "LinkedIn",
