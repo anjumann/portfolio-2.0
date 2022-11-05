@@ -30,7 +30,7 @@ const MainProjects: FC<MainProjectsProps> = () => {
       title: "Finite Loop official website",
       image: "/projects/finiteloop.png",
       desc: "lorem ipsum dolor sit amet",
-      website: "finiteLoop.co.in",
+      website: "https://finiteLoop.co.in",
       github: "",
       tech: ["/skills/react.png", "/skills/firebase.png", "/skills/tailwind.png"],
     },
