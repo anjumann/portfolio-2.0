@@ -23,8 +23,12 @@ const Home: NextPage<HomeProps> = ({ data }) => {
 
   const [Loading, setLoading] = useState(false);
   useEffect(() => {
-    setTimeout(() => setLoading(true), 4000);
-  },);
+    if (document.readyState === 'complete') {
+      setLoading(false);
+    }else{
+      setLoading(true);
+    }
+  },[document.readyState]);
   return (
     <>
       {!Loading && <Loader />}
