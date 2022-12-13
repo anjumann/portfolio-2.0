@@ -34,11 +34,7 @@ NEXT_PUBLIC_FORM_URL=
 ## Previews
 
 ![Preview 1](https://www.anjuman.tech/projects/portfolio.png)
-<!--
-![Preview 2](https://res.cloudinary.com/naptest/image/upload/v1654580156/portfolio-next/preview-2_ux6bh9.png)
-![Preview 3](https://res.cloudinary.com/naptest/image/upload/v1654580157/portfolio-next/preview-3_clnabt.png)
-![Preview 4](https://res.cloudinary.com/naptest/image/upload/v1654580156/portfolio-next/preview-4_zwp5ae.png)
--->
+
 ## Summary
 
 👉 If you like this project, give it a star ✨ and share 👨🏻‍💻 it to your friends 👈

@@ -19,11 +19,11 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         <title>{`Anjuman / Home`}</title>
 
-        <meta name="title" content="NAPTheDev's Portfolio" />
-        <meta name="description" content="Nguyen Anh Phong's Portfolio" />
+        <meta name="title" content="Anjuman's Portfolio" />
+        <meta name="description" content="Anjuman's Portfolio" />
 
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="NAPTheDev's Portfolio" />
+        <meta property="og:title" content="Anjuman's Portfolio" />
         <meta
           property="og:description"
           content="Nguyen Anh Phong's Portfolio"
@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:image" content="/avatar.jpg" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="NAPTheDev's Portfolio" />
+        <meta property="twitter:title" content="Anjuman's Portfolio" />
         <meta
           property="twitter:description"
           content="Nguyen Anh Phong's Portfolio"
